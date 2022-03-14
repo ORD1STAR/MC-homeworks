@@ -52,7 +52,7 @@ removeIndex(liste2, 2);
 console.log(liste2);  // [ 1, 2, 'test', 4, 'element' ]
 console.log("\n");
 
-console.log("Remove supplicated elements");
+console.log("Remove dupplicated elements");
 liste3 = [-3, 8, 2, 7, 6, -3, 5, -4, 3, 2, 1, 7];
 sortArray(liste3);
 console.log(liste3);  // [ -4, -3, -3, 1, 2, 2, 3, 5, 6, 7, 7,  8 ]
