@@ -1,0 +1,13 @@
+body p:first-child{
+
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+body:last-child p{
+    color: #FF0000;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

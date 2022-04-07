@@ -34,8 +34,27 @@
 
 // Destructive assignment
 
-var arrr = ["amine", 19, "L2", "GTR"];
-var [nom, age, lvl, maj] = arrr;
-console.log(nom, lvl);
+// var arrr = ["amine", 19, "L2", "GTR"];
+// var [nom, age, lvl, maj] = arrr;
+// console.log(nom, lvl);
 
+// const leg = ['🍅', '🥕', '🍄'];
+// 
+// var [tomate, , champignon] = leg;
+
+// console.log(tomate , champignon);
+
+var list = [-2, 6, -9, 4, 3, 7, -7, 12, -22, 47, 0, -3, -1, -11, 17];
+// var list2 = [7, 8, 9, 10, 11, 12];
+// 
+// var listF = list.concat(list2);
+// var listFJ = listF.join();
+
+var pos = list.every((n, i) => {
+    return n>-100;
+});
+console.log(pos);
+// console.log(list2);
+// console.log(listF);
+// console.log(listFJ);
 
