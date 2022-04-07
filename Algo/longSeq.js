@@ -1,8 +1,8 @@
 function crescent(list){
     list.push(-Infinity) //adds a -inf value to the end of the array
-    var minIndex = 0;    //index of the first element of the longest crescent sequence
-    var max = 0;         //the length of the longest crescent sequence
-    var temp =1;         //temporary variable to store the length of the current crescent sequence
+    var minIndex = 0,    //index of the first element of the longest crescent sequence
+        max = 0,         //the length of the longest crescent sequence
+        temp =1;         //temporary variable to store the length of the current crescent sequence
     for(var i=0; i<list.length-1; i++){
         if(list[i] < list[i+1]){ //if the element < li morah
             temp++;              //current sequence length ++
