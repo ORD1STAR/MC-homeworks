@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-size: 25;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+}
+
+.tit{
+    font-size: 25;
+    font-weight: bold;
+}

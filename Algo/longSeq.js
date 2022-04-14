@@ -18,3 +18,4 @@ function crescent(list){
 
     return [...list.slice(0, minIndex), ...result, ...list.slice(minIndex+max)];    // return the new array 
 }
+console.log(crescent([0, 1, 0, 2, 5, 8, 1]));
